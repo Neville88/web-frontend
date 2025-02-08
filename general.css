@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4B5320;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgb(109, 236, 134);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #00c3ff;
+    text-align: center;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #00c3ff;
+    color: black;
+}
+
+/* Link Styling */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+}
+
+.contact a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Video Styling */
+video {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
