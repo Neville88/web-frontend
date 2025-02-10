@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Dark Mode Toggle
+    const darkModeBtn = document.getElementById("darkModeToggle");
+    darkModeBtn.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+    });
+
+    // Show/Hide Results Table
+    const toggleResultsBtn = document.getElementById("toggleResults");
+    const resultsTable = document.getElementById("resultsTable");
     toggleResultsBtn.addEventListener("click", function () {
         if (resultsTable.style.display === "none" || resultsTable.style.display === "") {
             resultsTable.style.display = "table";
